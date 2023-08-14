@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    register-with-eureka: false # current service will not be register as client
+    fetch-registry: false # current service will not fetch the registry
+
+
